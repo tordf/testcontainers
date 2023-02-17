@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/Shopify/sarama"
-	tc "github.com/romnn/testcontainers"
-	tckafka "github.com/romnn/testcontainers/kafka"
 	log "github.com/sirupsen/logrus"
+	tc "github.com/tordf/testcontainers"
+	tckafka "github.com/tordf/testcontainers/kafka"
 )
 
 func run() string {

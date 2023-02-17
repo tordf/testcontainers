@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	tc "github.com/romnn/testcontainers"
-	tcmongo "github.com/romnn/testcontainers/mongo"
 	log "github.com/sirupsen/logrus"
+	tc "github.com/tordf/testcontainers"
+	tcmongo "github.com/tordf/testcontainers/mongo"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

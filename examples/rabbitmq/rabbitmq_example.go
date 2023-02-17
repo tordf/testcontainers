@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	tcrabbitmq "github.com/romnn/testcontainers/rabbitmq"
 	log "github.com/sirupsen/logrus"
+	tcrabbitmq "github.com/tordf/testcontainers/rabbitmq"
 )
 
 func run() int {

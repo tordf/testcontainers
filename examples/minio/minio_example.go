@@ -7,8 +7,8 @@ import (
 
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	tcminio "github.com/romnn/testcontainers/minio"
 	log "github.com/sirupsen/logrus"
+	tcminio "github.com/tordf/testcontainers/minio"
 )
 
 func run() string {

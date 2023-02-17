@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	tcmongo "github.com/romnn/testcontainers/mongo"
+	tcmongo "github.com/tordf/testcontainers/mongo"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

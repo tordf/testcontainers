@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/go-redis/redis"
-	tcredis "github.com/romnn/testcontainers/redis"
 	log "github.com/sirupsen/logrus"
+	tcredis "github.com/tordf/testcontainers/redis"
 )
 
 func run() string {
