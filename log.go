@@ -6,7 +6,8 @@ import (
 
 	//"github.com/prometheus/common/log"
 	"github.com/testcontainers/testcontainers-go"
-	"google.golang.org/appengine/log"
+	//"google.golang.org/appengine/log"
+	"log"
 )
 
 // LogCollector ...
@@ -32,7 +33,7 @@ func EnableLogger(container testcontainers.Container, logger *LogCollector) {
 	// defer logger.mux.Unlock()
 
 	if err := container.StartLogProducer(context.Background()); err != nil {
-		log.Errorf("Failed to start log producer: %v", err)
+		log.Println("Failed to start log producer: %v", err)
 		return
 	}
 	container.FollowOutput(logger)
