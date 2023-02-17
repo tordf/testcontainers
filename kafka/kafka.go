@@ -8,7 +8,9 @@ import (
 
 	dockerclient "github.com/docker/docker/client"
 	"github.com/docker/go-connections/nat"
-	"github.com/prometheus/common/log"
+	log "github.com/sirupsen/logrus"
+
+	//"github.com/prometheus/common/log"
 	"github.com/testcontainers/testcontainers-go"
 	tc "github.com/tordf/testcontainers"
 	tczk "github.com/tordf/testcontainers/zookeeper"

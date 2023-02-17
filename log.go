@@ -4,8 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/prometheus/common/log"
+	//"github.com/prometheus/common/log"
 	"github.com/testcontainers/testcontainers-go"
+	"google.golang.org/appengine/log"
 )
 
 // LogCollector ...
